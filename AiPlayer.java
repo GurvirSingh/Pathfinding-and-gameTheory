@@ -185,3 +185,6 @@ public int Min_value(GameBoard currentGame, int depth, int a, int b) {
 }
     // End of Added 
     }
+
+    // References: @author:James Spargo @repo:MaxConnect4 @link:Github https://github.com/mpatt3970/Connect_4/blob/master/src/mines/mipatter/maxconnect4.java
+    // References: @author:Akshay L Aradhya @link:https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning/

@@ -1,0 +1,7 @@
+﻿Evaluation Function
+1. The evaluation function used in this program is a simple evaluation function which checks the score of player 2 and subtracts it with the score of player 1
+currentGame.getScore(2) - currentGame.getScore(1)
+
+2. The evaluation function uses the getScore(int player) function to calculate the score for the current position under evaluation.
+3. The evaluation function is used on line 148 and 183 of the AiPlayer.java, AiPlayer class
+4. The evaluation function used considers the score of the opponent and if the current moves increases the opponent’s score then that move is not played.

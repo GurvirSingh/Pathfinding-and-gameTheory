@@ -144,7 +144,7 @@ public int Max_value(GameBoard currentGame, int depth, int a, int b) {
         }
         return v;
     } else {
-        // terminal utility
+        // terminal utility evaluation
         return currentGame.getScore(2) - currentGame.getScore(1);
     }
 }
@@ -179,8 +179,8 @@ public int Min_value(GameBoard currentGame, int depth, int a, int b) {
         }
         return v;
     } else {
-        // terminal utility
-        return currentGame.getScore(2) + - currentGame.getScore(1);
+        // terminal utility evaluation
+        return currentGame.getScore(2) - currentGame.getScore(1);
     }
 }
     // End of Added 

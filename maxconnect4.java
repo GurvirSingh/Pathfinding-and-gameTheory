@@ -89,7 +89,7 @@ public class maxconnect4
                 // PlayPiece just places the best solution in the game board
                 // findBestPlay searches the MinMax tree in AiPlayer and returns the column number
 
-                System.out.println("Column played by Computer: " + calculon.findBestPlay(currentGame, depthLevel));
+                System.out.println("Column played by Computer: " + (calculon.findBestPlay(currentGame, depthLevel) + 1));
 
                 if(!currentGame.isValidPlay(calculon.findBestPlay(currentGame, depthLevel))) {
                     for(int i = 0;i<6;i++){

@@ -34,6 +34,7 @@ public class AiPlayer
 
     public int findBestPlay( GameBoard currentGame, int depth ) 
     {
+	    // initial random play code 
     // Provided code for random play by Ai Player
 	// start random play code
 	// Random randy = new Random();
